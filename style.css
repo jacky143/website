@@ -1,0 +1,123 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    
+  }
+  header{
+    background-color: black;
+    color: #333;
+    padding: 40px;
+
+  }
+.logo img{
+    width:170px;
+    height: auto;
+    float: left;
+    padding: 30px;
+  }
+  body{
+    font-family: Arial, Helvetica,san-serif;
+    background-color: black;
+    height: 100%;
+
+
+}
+
+/* Add a black background color to the top navigation */
+.main-nav {
+    background-color: #333;
+    list-style: none;
+    float:right;
+    margin: auto;
+    
+  }
+  .main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px; 
+    
+    }
+  
+  /* Style the links inside the navigation bar */
+  .main-nav li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .main-nav li a:hover {
+    color:white;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+  }
+  
+  /* Add a color to the active/current link */
+  .main-nav a.active {
+    background-color: #4CAF50;
+    color: white;
+  } 
+  .intro-container{
+    text-align: center;
+  }
+  .intro{
+      position: relative;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .intro p{
+      font-size: 20px;
+      font-family: serif;
+
+  }
+
+  /*style the images*/
+  .container {
+      width: 100%;
+      margin-top: 10%;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+  }
+  .container h2{
+      background: #4CAF50;
+      position: center;
+      color: black;
+      width: 200px;
+      font-size: 24px;
+      padding: 5px;
+      height: 40px;
+  }
+  .container h2::after
+  {
+      content: '';
+      border-top: 40px solid #0062cc;
+      position: relative;
+      left: 48px;
+      top: 34px;
+  }
+  .row{
+      margin-top: 30px;
+  }
+  .img{
+      width: 100%;
+  }
+  
+
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+ }
